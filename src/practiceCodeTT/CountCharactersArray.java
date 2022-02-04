@@ -21,6 +21,7 @@ public class CountCharactersArray {
 				System.out.println(ch+" - "+count);
 			}
 			inputString = inputString.replace(""+ch,"");
+			System.out.println(" "+inputString+" ");
 		}
 	}
 

@@ -14,6 +14,7 @@ public class CountCharacters {
 			Map<Character, Integer> numCharMap = new HashMap<Character, Integer>();
 			for(int i = 0; i < message.length(); i++){
 				char c = message.charAt(i);
+						System.out.println("char :: "+c);
 				if(c == ' ')
 					continue;
 					if(numCharMap.containsKey(c)){
@@ -29,8 +30,8 @@ public class CountCharacters {
 		}		
 		public static void main(String[] args) {
 		    CountCharacters cc = new CountCharacters();
-		    cc.countChars("Saket Kumar");
-		  
+		    cc.countChars("saket kumar");
+		
 	}
 
 }
