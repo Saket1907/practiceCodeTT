@@ -32,7 +32,7 @@ class Producer implements Runnable {
 		for (int i = 0; i < 100; i++) {
 			Message msg = new Message(" " + i);
 			try {
-				Thread.sleep(i);
+				Thread.sleep(1000);
 				queue.put(msg);
 				System.out.println("Produced : " + msg.getMsg());
 			} catch (InterruptedException e) {
