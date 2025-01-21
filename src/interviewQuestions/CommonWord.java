@@ -7,12 +7,15 @@ import java.util.Set;
 
 public class CommonWord {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		String s1 =  "Hello";
 		String s2 = "world";
 		Set<String> s1ToSet = new HashSet<>();
 		
 		List<String> myList = new ArrayList<>();
+		
+		Set<String> mySet = new HashSet<>();
 		
 		for(int i = 0; i <= s1.length() -1; i++) {
 			char temp = s1.charAt(i);

@@ -1,8 +1,8 @@
 package practiceCodeTT;
 
-import java.util.HashSet;
+
 import java.util.PriorityQueue;
-import java.util.Set;
+
 
 public class IntQues {
 
@@ -18,9 +18,12 @@ public class IntQues {
 
 		while (pQ.size() > 1) {
 			int first = pQ.poll();
+			System.out.println("first > "+first);
 			int second = pQ.poll();
+			System.out.println("sec > "+second);
 
 			result += first + second;
+			System.out.println("resul> "+result);
 			pQ.add(first + second);
 		}
 

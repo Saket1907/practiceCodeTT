@@ -7,8 +7,8 @@ public class SumOfArray {
 	public static void main(String[] args) {
 		int[] sumArray = {0, 1, 2, 3, 4, 5, 6, 8};
 		int sumInit = 0;
-		int sum;
-		int value;
+		//int sum;  to be used commented for vs code
+		//int value;
 		Arrays.sort(sumArray);
 		System.out.println(Arrays.toString(sumArray));
 		for(int i = 0; i < sumArray.length; i++){
